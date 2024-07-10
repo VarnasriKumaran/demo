@@ -73,7 +73,7 @@
         <archive>
             <manifest>
                 <addClasspath>true</addClasspath> <!-- Include classpath in manifest -->
-                <mainClass>your.main.Class</mainClass> <!-- Specify the main class for executable JARs -->
+                <mainClass>new</mainClass> <!-- Specify the main class for executable JARs -->
             </manifest>
         </archive>
     </configuration>
@@ -87,7 +87,7 @@
                     <archive>
                         <manifest>
                             <addClasspath>true</addClasspath>
-                            <mainClass>com.example.Main</mainClass>
+                            <mainClass>new</mainClass>
                         </manifest>
                     </archive>
                 </configuration>
